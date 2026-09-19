@@ -337,7 +337,8 @@ h1, h2, h3, h4 {
 .about-image img {
   width: 100%;
   max-width: 420px;
-  border-radius: var(--radius-sm);
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
 }
 
